@@ -1,0 +1,77 @@
+body{
+    text-align: center;
+}
+/* text aling centra imagenes y texto y margin 0(arriva abajo), auto (izq der) y asi qeda centrado todo comoesta con esas 2 cosas
+el text aling modifica el contenido y el margin a la caja*/
+.mainContainer{
+    position: relative;
+    width: 550px;  
+    margin: 0 auto;
+    -webkit-box-shadow: inset 0px 0px 21px -4px rgba(0,207,214,1);
+    -moz-box-shadow: inset 0px 0px 21px -4px rgba(0,207,214,1);
+    box-shadow: inset 0px 0px 21px -4px rgba(0,207,214,1);
+
+}
+.profile{
+    position: relative;
+    height: 250px;
+   
+}
+.picture{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+       
+.picture img{
+    
+    height: 200px;
+    border-radius:  50%;   
+    border: 2px black solid;
+}
+
+.flag{
+    position: absolute;
+    width: 100px;
+    bottom: 0;
+    right: 163px;
+}
+.flag img{
+    height: 50px;
+    border-radius:  50%;   
+    border: 2px orange solid;
+}
+.container2{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    height: 125px;
+}
+.name{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    font-size:xx-large;
+    font-weight: bold; 
+}
+.info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orange;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.container3 p{
+    text-align: justify;
+    display: inline-block;
+    width: 36%;
+    margin: 2%;
+    margin-bottom: 3%;
+}
+.container4{
+    height: 50px;
+}
+.container4 i{
+    font-size: 25px;
+    margin: 0 20px;
+    color: orange;
+}

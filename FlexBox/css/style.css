@@ -1,0 +1,24 @@
+.main{
+    height: 300px;
+    width: 100%;
+    background-color: sienna;
+    display: flex;
+    /**centra horizontalmente*/
+    justify-content: center;
+    /* centra verticalmente*/
+    align-items: center;
+}
+.cluster
+{
+  height: 280px;
+  width: 33%;
+} 
+.uno{
+    background-color: aqua;
+}
+.dos{
+    background-color: blue;
+}
+.tres{
+    background-color: darkgoldenrod;
+}

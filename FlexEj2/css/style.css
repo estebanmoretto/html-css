@@ -1,0 +1,53 @@
+body{
+    background-color: antiquewhite;
+}
+.globalContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.article1{
+    background-color: white;
+    margin-bottom: 7px;
+    border-color: darkgrey;
+    border-style: solid;
+    border-width: thin;
+}
+.leftContainer{
+    width: 200px;
+    background-color: white;
+    margin-right: 10px;
+    height: 500px;
+    position: sticky;
+}
+.bar{
+    height: 1px;
+    background-color: darkgrey;
+    width: 85%;
+    margin: 5px 36px 9px 30px;
+}
+.buttoms{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    height: 250px;;
+}
+.rightContainer{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin-left: 10px;
+    
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}

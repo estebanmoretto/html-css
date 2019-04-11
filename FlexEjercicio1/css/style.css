@@ -1,0 +1,57 @@
+body{
+    margin: 0%;
+}
+h1{
+   margin: 0 5%;
+}
+.mainConatiner{
+    background-color: pink;
+    width: 59%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 5%;
+}
+.carrouselTitle{
+   
+}
+.carrouselContent{
+    display: flex;
+    justify-content: space-evenly;
+}
+.product
+{
+    margin: 1%;
+}
+.product-img img{
+    height: 150px;
+}
+.product-des{
+    background-color: darkgray;
+    padding: 10px;
+}
+.product-des p{
+    margin: 0%;
+}
+.bar{
+    width: 55%;
+    height: 20px;;
+    background-color: chocolate;
+    margin: 40px;
+}
+.articule{
+    width: 70%;
+    height: 16%;
+    display: flex;
+    background-color: brown;
+}
+.paragraph1 p{
+    text-align: justify;
+    margin: 6%;
+}
+.paragraph2 p{
+    text-align: left;
+    margin: 6%;
+}

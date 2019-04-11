@@ -1,0 +1,44 @@
+/* <p style="color:royalblue; font-weight: bold">LA NACION <span style="color:black;">|</span>TECNOLOGIA<span style="color:black;">|</span><span style="color:blue;font-weight: lighter">TECNOLOGIA</span></p> */
+body 
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.mainContainer{
+    margin-right: 600px;
+    padding-left:500px;
+}
+.breadCrumb p{
+    color: royalblue;
+    font-weight: bold;
+}
+.breadCrumb span{
+    color: black;
+}
+h1:hover{
+    color: royalblue;
+}
+
+#lastCrumb{
+   font-weight: normal;
+   color: royalblue;
+}
+h2{
+    font-size: xx-large;
+}
+#headerTitle{
+    
+}
+
+.article{
+    
+    font-size: large;
+}
+
+.article p{
+    
+}
+#date{
+    color:gray;
+}

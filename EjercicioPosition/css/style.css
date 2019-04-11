@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+}
+.header{
+    position: fixed;
+    background-color: darkviolet;
+    height: 25px;
+    width: 100%;
+    top: 0;
+}
+
+.relative
+{
+    height: 300px;
+    width: 300px;
+    background-color: chocolate;
+    position: relative;
+
+}
+
+.absolut2{
+    height: 125px;
+    width: 125px;
+    background-color: darkcyan;
+    position: absolute;
+    /*se posisciona en el 0 del padre(right:0 de la derecha, top 0 de arriva etc)*/
+    right: 0;
+    top: 175px;
+    left: 0px;
+    bottom: 99px;   
+}
+
+.absolut{
+    height: 255px;
+    width: 255px;
+    background-color: aqua;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    z-index: 0;
+}
+.firstP
+{
+    margin-top: 26px;
+
+}

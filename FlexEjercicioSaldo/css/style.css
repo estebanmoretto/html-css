@@ -1,0 +1,41 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.mainContainer{
+    display: flex;
+    width: 50%;
+    background-color: ghostwhite;
+    flex-direction: column;
+
+}
+.cuadrado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+h1{
+    margin-left: 21px;
+}
+.articulo1{
+    margin: 0% 15px;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+}
+
+.articulo1 p{
+    margin:25px 50px;;
+    font-size: larger;
+}
+.plata p{
+    font-size: -webkit-xxx-large;
+}
+.palabras p{
+    color: gray;
+}
+.opcion{
+    font-size: x-large;
+}

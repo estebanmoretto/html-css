@@ -1,0 +1,24 @@
+.red, .blue , .yellow {
+    height: 200px;
+    width: 400px;
+    margin:0 auto;
+    
+}
+.red{
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+
+@media(max-width:700px){
+    .red,.blue,.yellow{
+        height: 400px;
+        width: 200px;
+       
+        display: inline-block;
+    }
+}
